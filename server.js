@@ -52,7 +52,7 @@ const server = app.listen(
 
 const io = require("socket.io")(server, {
   cors: {
-    origin: "https://ramish-chat.herokuapp.com/",
+    origin: "https://ramish-chat.herokuapp.com/chats",
      credentials: true,
   },
 });
